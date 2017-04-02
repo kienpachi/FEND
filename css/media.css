@@ -1,0 +1,121 @@
+/* Wide Screen */
+@media screen and (min-width: 950px) {
+    .body{
+        max-width: 960px;
+        margin: 0 auto;
+    }
+    .about {
+        display: inline-block;
+        width: 30%;
+        vertical-align: top;
+        padding-bottom: 2em;
+    }
+    .content {
+        display: inline-block;
+        width: 69%;
+    }
+    .header {
+        margin-top: 2em;
+        padding-bottom: 1em;
+    }
+    .work .card h5 {
+        font-size: 1em;
+        margin-top: 0.2em;
+        margin-bottom: 0.5em;
+        padding-bottom: 0;
+    }
+    footer .container {
+        margin-bottom: 1em;
+    }
+    footer .contact {
+        width: 50%;
+        display: inline-block;
+        vertical-align: top;
+    }
+    footer .contact:hover p {
+        background-color: #03b3e5;
+        color: #2c3c49;
+        font-weight: bold;
+    }
+    footer .follow {
+        width: 50%;
+        display: inline-block;
+        vertical-align: top;
+    }
+    /* Hovers */    
+    .details:hover .circle-icon {
+        height: 15px;
+        width: 15px;
+        background-color: #2c3c49;
+        margin-left: -2.01em;
+        margin-top: -0.1em;
+    }
+    .details:hover h3>span {
+        color: #03b3e5;
+    }
+    .details:hover p {
+        background-color: #f5f5f5;
+        color: #000;
+        margin-left: -1em;
+        margin-right: -1em;
+        padding: 1em;
+    }
+    .details:hover .text-highlight {
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    .details:hover ul {
+        list-style: url(/images/medal-focus.png);
+        background-color: #f5f5f5;
+        color: #000;
+        margin-left: -1em;
+        margin-right: -1em;
+        padding: 1em;
+        padding-left: 2em;
+    }
+    .work .card:hover {
+        box-shadow: 0 4px 6px rgba(0,0,0,0.35);
+    }
+    .work .card:hover {
+        background-color: #03b3e5;
+    }
+    .work .card:hover h5 {
+        color: #fff;
+    }
+}
+
+
+/* Resume Owner Name */
+@media screen and (max-width: 430px) {
+    .name h1 {
+        font-size: 2.5em !important;
+    }
+    .name h2 {
+        font-size: 1.2em !important;
+    }
+}
+
+
+/* Featured Work */
+@media screen and (min-width: 650px) {
+    .work .card {
+        width: calc((100% - 20px)/3);
+        display: inline-block;
+    }
+}
+@media screen and (min-width: 620px) and (max-width: 651px) {
+    .work .card {
+        width: 45%;
+        margin-right: 0;
+    }
+    .work .card:nth-child(1), .work .card:nth-child(3){
+        margin-right: 1em;
+    }
+}
+
+/* Contact Information */
+@media screen and (max-width: 500px) {
+    footer .contact, footer .follow {
+        width: 100%;
+    }
+}
