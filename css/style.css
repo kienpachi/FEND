@@ -5,30 +5,10 @@
     -ms-box-sizing: border-box;
     box-sizing: border-box;
     /* Font */
-    font-family: 'jf_flatregular', Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     /* Transition */
     transition: 0.3s;
 }
-
-
-/* Fonts */
-@font-face {
-    font-family: 'jf_flatregular';
-    src: url('/fonts/jf_flat_regular_0-webfont.woff2') format('woff2'),
-         url('/fonts/jf_flat_regular_0-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'jf_flatlight';
-    src: url('/fonts/jf-flat-light-webfont.woff2') format('woff2'),
-         url('/fonts/jf-flat-light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 
 /* HTML */
 hr {
@@ -38,7 +18,7 @@ h1, h2, h3, h4, h5, h6, p {
     cursor: context-menu;
 }
 h1, h2, h3 {
-    font-family: 'jf_flatlight', Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 p {
     font-size: 16px;
@@ -76,11 +56,13 @@ header .name h1 {
     margin-bottom: 0;
     line-height: 1em;
     margin-top: 0.3em;
+    font-weight: 300;
 }
 header .name h2 {
     font-size: 1.4em;
     margin-top: 0;
     color: #03b3e5;
+    font-weight: 300;
 }
 
 
@@ -213,6 +195,7 @@ footer h2 {
     text-align: center;
     padding: 0;
     margin: 0;
+    margin-bottom: 0.3em;
     width: 100%;
 }
 footer p {
