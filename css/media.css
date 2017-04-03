@@ -4,6 +4,9 @@
         max-width: 960px;
         margin: 0 auto;
     }
+    .name {
+        text-align: right !important;
+    }
     .about {
         display: inline-block;
         width: 30%;

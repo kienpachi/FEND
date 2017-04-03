@@ -43,7 +43,7 @@ header {
     width: 100%;
 }
 header .name {
-    text-align: right;
+    text-align: center;
     vertical-align: middle;
     padding-right: 1em;
 }
