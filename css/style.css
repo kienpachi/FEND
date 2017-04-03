@@ -5,7 +5,7 @@
     -ms-box-sizing: border-box;
     box-sizing: border-box;
     /* Font */
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     /* Transition */
     transition: 0.3s;
 }
@@ -16,9 +16,6 @@ hr {
 }
 h1, h2, h3, h4, h5, h6, p {
     cursor: context-menu;
-}
-h1, h2, h3 {
-    font-family: 'Roboto', sans-serif;
 }
 p {
     font-size: 16px;
@@ -78,7 +75,7 @@ header .name h2 {
     margin: 0 auto;
 }
 .about ul {
-    list-style: url(/images/checked.png);
+    list-style: url(images/checked.png);
     text-align: left;
     padding-left: 1.5em;
 }
@@ -137,7 +134,7 @@ header .name h2 {
     border-left: 1.5px solid #03b3e5;
 }
 .details ul {
-    list-style: url(/images/medal.png);
+    list-style: url(images/medal.png);
     color: #7d97ae;
     padding-left: 0.5em;
 }
