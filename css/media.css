@@ -86,15 +86,21 @@
 
 
 /* Resume Owner Name */
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 460px) {
     .name h1 {
-        font-size: 2.5em !important;
+        font-size: 2.7em !important;
+        text-align: center;
     }
     .name h2 {
         font-size: 1.2em !important;
+        text-align: center;
     }
 }
-
+@media screen and (max-width: 362px) {
+    .name h1 {
+        font-size: 2.3em !important;
+    }
+}
 
 /* Featured Work */
 @media screen and (min-width: 650px) {
